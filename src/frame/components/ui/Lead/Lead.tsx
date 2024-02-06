@@ -12,7 +12,6 @@ export function Lead({ children, className, as: Component = 'div', ...restProps 
   return (
     <Component
       className={cx('f2 color-fg-muted mb-3', styles.container, className)}
-      data-container="lead"
       {...restProps}
       {...(typeof children === 'string'
         ? { dangerouslySetInnerHTML: { __html: children } }

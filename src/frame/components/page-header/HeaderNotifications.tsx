@@ -84,7 +84,7 @@ export const HeaderNotifications = () => {
   ].filter(ExcludesNull)
 
   return (
-    <div data-container="notifications">
+    <div>
       {allNotifications.map(({ type, content, onClose }, i) => {
         const isLast = i === allNotifications.length - 1
 

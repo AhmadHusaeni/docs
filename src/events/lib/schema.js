@@ -251,17 +251,7 @@ const link = {
     },
     link_container: {
       type: 'string',
-      enum: [
-        'header',
-        'nav',
-        'breadcrumbs',
-        'title',
-        'lead',
-        'notifications',
-        'article',
-        'toc',
-        'footer',
-      ],
+      enum: ['header', 'nav', 'article', 'toc', 'footer'],
       description: 'The part of the page where the user clicked the link.',
     },
   },
